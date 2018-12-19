@@ -1,0 +1,28 @@
+body{
+    font-family: "Crimson Text";
+    text-align: justify;
+}
+main h1{
+    font-size: 60px;
+    font-family: "Open Sans Condensed";
+    background-color: #851944;
+    text-align: center;
+    color: #f2fffc;
+}
+h2{
+    font-size: 40px;
+    font-family: "Open Sans Condensed";
+}
+blockquote{
+    background-color: #d9e5e3;
+}
+aside{
+    background-color: #3c1d3d;
+}
+
+aside h1 {
+    color: #851944;
+}
+aside li a{
+    color: #851944;
+}
