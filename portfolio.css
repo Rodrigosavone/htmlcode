@@ -4,42 +4,24 @@ body{
     font-size: 120%;
     line-height: 1.5;
 }
+
 h1, h2{
     font-family: "Open Sans Condensed", "Arial", sans-serif;
 }
-h2{
-    clear: both;
-}
-em{
-    font-style: italic;
-}
-.titulo-principal {
+.texto-principal {
 	text-align: center;
 	background-color: #851944;
 	color: #FFF;
-	padding: 1.25rem;
-	border-bottom: .5rem solid black;
-	font-size: 300%;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
 	text-transform: uppercase;
 }
 
-main div {
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-p{
-    text-align: justify;
-    margin: 20px 0;
-}
-
-.citacao-bio{
-    background-color: #d9e5e3;
-    padding: 16px;
-    border: 10px solid #c2ccca;
-    width: 250px;
-    box-sizing: border-box;
-    margin: 20px 40px;
-    
+.rodape-pagina{
+    color: #ffffff;
+    background-color: #000000;
+    clear: both;
 }
 .navegação-site{
     text-align: center;
@@ -49,56 +31,23 @@ p{
     position: relative;
     
 }
-
-main a{
-    color: #851944;
-}
 .navegação-site h1 {
     font-size: 30px;
     margin-bottom: 25px;
 }
-
 .navegação-site a{
     color: inherit;
     font-family: "Open Sans Condensed", sans-serif;
 }
-
 .citacao-bio, .navegação-site, .rodape-pagina{
     padding: 20px;
 }
-
-.texto{
-    width: 720px;
-    margin: auto;
-    padding: 30px 0;
-    padding-bottom: 0px;
-}
-
-strong{
-    font-weight: bold;
-}
-
-.subtitulo-texto{
-    font-size: 30px;
-    clear: both;
-}
-
 .icones-sociais li{
     display: inline-block;
 }
 
-.artigo{
-    padding-bottom: 30px;
-    border-bottom: 1px solid #ccc;
-    margin-bottom: 20px;
-}
 nav a{
     text-transform: lowercase;
-}
-.rodape-pagina{
-    color: #ffffff;
-    background-color: #000000;
-    clear: both;
 }
 .icones-sociais a{
     height: 40px;
@@ -115,15 +64,10 @@ nav a{
 .linkedin{
     background-image: url(img/linkedin.png);
 }
-.fiat{
-    float: right;
-}
-.petrobras{
-    float: left;
-}
 main{
     float: left;
     width: 85%;
+    background-color: #fafffc
 }
 .minha-foto, .navegação-site{
     float: left;
@@ -133,12 +77,50 @@ main{
     position: relative;
     top: 310px;
 }
-cite{
-    font-style: italic;
-    float: right;
-}
 .minha-foto{
 	position: absolute;
     top: 0px;
     right: 0px;;
+}
+.foto-bmw{
+    border: 8px solid black;
+    margin: 16px 16px;
+    float: left;
+    position: relative;
+    left:210px;
+}
+.foto-uol{
+    border:  8px solid black;
+    margin: 16px 16px;
+    float: right;
+    position: relative;
+    right: 210px;
+
+}
+.foto-ibm{
+    border:  8px solid black;
+    margin: 16px 16px;
+    float: left;
+    position: relative;
+    top: 200px;
+    bottom: 16px;
+    left: -163px;
+}
+.foto-g1{
+    border: 8px solid black;
+    margin: 16px 16px;
+    float: right;
+    position: relative;
+    right: 210px;
+
+}
+.texto{
+    margin-top: 50px;
+    margin-left: 220;
+}
+.navegação-site, .rodape-pagina{
+    padding: 20px;
+}
+.foto-bmw, .foto-g1{
+    margin-bottom: 100px;
 }
